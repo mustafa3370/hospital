@@ -198,12 +198,12 @@ header .fa-times{
         opacity: 1;
     }
     .about .content .box h3 i{
-        padding: 4.2rem;
-        color: var(--blue);
+        font-size: 1.5rem;
+        padding-left: 32px;
+        color: var(--black);
     }
     .about .content .box p {
         font-size: 0.9rem;
-        padding-left: 5rem;
+        padding-left: 4rem;
         color: #666;
-    }
  }
