@@ -203,7 +203,8 @@ header .fa-times{
         color: var(--blue);
     }
     .about .content .box p {
-        font-size: 0.9rem;
+        font-size: 1rem;
         padding-left: 4rem;
+        margin-right: 23px;
         color: #666;
  }
