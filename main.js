@@ -17,3 +17,10 @@ $(window).on('load scroll',function(){
     }
 
   });
+  $('.facility').magnificPopup({
+    delegate:'a',
+    type:'image',
+    gallery:{
+      enabled:true
+    }
+  });
