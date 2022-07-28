@@ -1,17 +1,21 @@
-<!DOCTYPE html>
+<!DOCTYPE html >
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>elfath hospital</title>
+    
+    <!-- magnific popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
     <link rel="stylesheet" href="./bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body >
     
-<header>
+<header data-aos="zoom-in-up">
     <div class="container">
         <a href="#" class="logo"><span>F</span>ath<span>H</span>ospital</a>
         <nav class="nav">
@@ -50,9 +54,9 @@
 <section class="about" id="about">
     <div class="container">
         <div class="row min-vh-100 align-items-center">
-            <div class="col-md-6 content">
+            <div class="col-md-6 content"data-aos="fade-right" >
                 <div class="box">
-                    <h3><i class="fas fa-ambulance"></i> ambulance services</h3>
+                    <h3><i class="fas fa-ambulance" ></i> ambulance services</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sit, in adipisci ex reiciendis consequuntur cum dolor,</p>
                 </div>
                 <div class="box">
@@ -64,7 +68,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, sit, in adipisci ex reiciendis consequuntur cum dolor,</p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-left">
                 <img src="./img/Hospital bed-cuate.png" width="100%" alt="">
             </div>
         </div>
@@ -75,7 +79,7 @@
 <!--facility section start-->
 <section class="facility" id="Facility">
 <div class="container">
-    <h1 class="heading"><span>'</span>our facilies <span>'</span></h1>
+    <h1 class="heading"><span>' </span>our facilies <span>'</span></h1>
  <div class="box-container">
     <div class="box" data-aos="zoom-in">
         <a href="./img/Doctors-rafiki.png" title="our team">
@@ -106,11 +110,6 @@
             <img src="./img/Health professional team-pana.png" alt="">
         </a>
     </div>
-    
-
-    
-
-   
 
     <div class="box" data-aos="zoom-in">
         <a href="./img/Ambulance-amico.png" title="Ambulance">
@@ -122,7 +121,58 @@
 </div>
 </section>
 <!--facility section end-->
-
+<!--review section start-->
+<section class="review" id="review">
+    <div class="container">
+        <h1 class="heading"><span>' </span>people's review <span>'</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/451742-PFJODG-279.png" alt="" class="feedback" width="150%">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, eum similique. Commodi
+                   nulla nisi ea molestiae cupiditate, a architecto deleniti?</p>
+                   <h3>Mustafa </h3>
+                   <span>july 28,2022</span>
+                   <div class="person">
+                   <img src="./img/person1.jpg" alt="" >
+                </div>
+                
+            </div>
+            <div class="box">
+                <img src="./img/451742-PFJODG-279.png" alt="" class="feedback" width="150%">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, eum similique. Commodi
+                   nulla nisi ea molestiae cupiditate, a architecto deleniti?</p>
+                   <h3>Mustafa </h3>
+                   <span>july 25,2022</span>
+                   <div class="person">
+                    <img src="./img/person2.jpg" alt="" >
+                 </div>
+                 
+            </div>
+            <div class="box">
+                <img src="./img/451742-PFJODG-279.png" alt="" class="feedback" width="150%">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, eum similique. Commodi
+                   nulla nisi ea molestiae cupiditate, a architecto deleniti?</p>
+                   <h3>Mustafa </h3>
+                   <span>july 2,2022</span>
+                   <div class="person">
+                    <img src="./img/person3.jpg" alt="" >
+                 </div>
+             
+            </div>
+            <div class="box">
+                <img src="./img/451742-PFJODG-279.png" alt="" class="feedback" width="150%">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, eum similique. Commodi
+                   nulla nisi ea molestiae cupiditate, a architecto deleniti?</p>
+                   <h3>Mustafa </h3>
+                   <span>july 10,2022</span>
+                   <div class="person">
+                    <img src="./img/person4.jpg" alt="" >
+                 </div>
+                
+        </div>
+    </div>
+</section>
+<!--review section end-->
 
 
 
@@ -138,9 +188,14 @@
 
 <script src="./jquery-3.6.0.min.js"></script>
 <script src="./popper.min.js"></script>
+<!-- magnific popup js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 <script src="./bootstrap.bundle.min.js"></script>
 <script src="./main.js"></script>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({duration:1800});
+</script>
 
 
 
