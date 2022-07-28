@@ -185,6 +185,60 @@ header .fa-times{
   .facility .box-container .box:hover img{
     transform: scale(1.3);
   }
+  .review .heading{
+    color:rgb(10, 10, 10);
+  }
+  
+  .review .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+    text-align: center;
+    align-items: center;
+    left: -61px;
+  }
+  
+  .review .box-container .box{
+    background:#fff;
+    width:20rem;
+    margin:1rem 3rem;
+    padding:1rem;
+    position: relative;
+  }
+  
+  .review .box-container .box .person img{
+    position: absolute;
+    top: 63px;
+    left: 35px;
+    height:5rem;
+    width:5rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .review .box-container .box p{
+    font-size: 10px;
+    position: relative;
+    top: -164px;
+    left: 52px;
+  }
+  
+  .review .box-container .box h3{
+    text-align: end;
+    color:var(--blue);
+    position: relative;
+    bottom: 276px;
+    right: 30px;
+  }
+  .review .box-container .box span{
+    text-align: end;
+    color:var(--black);
+    display: block;
+    font-size: 6.5px;
+    position: relative;
+    bottom: 205px;
+    left: 39px;
+  }
 
 
 
@@ -247,4 +301,43 @@ header .fa-times{
         margin-right: 23px;
         color: #666;
  }
+ .review .box-container .box{
+    width: 23rem;
+    margin: -8rem 0rem;
+    padding: 0rem;
+    position: relative;
+  }
+  .review .box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 5rem;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    left: -61px;
+  }
+  .review .heading{
+    color:rgb(10, 10, 10);
+    position: relative;
+    bottom: 53px;
+  }
+  .review .box-container .box .person img{
+    position: absolute;
+    top: 57px;
+    left: 23px;
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .review .box-container .box span{
+    text-align: end;
+    color:var(--black);
+    display: block;
+    font-size: 6.5px;
+    position: relative;
+    bottom: 195px;
+    left: 44px;
+  }
 }
