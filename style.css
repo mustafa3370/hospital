@@ -81,6 +81,14 @@
      padding-top: 8rem;
      color: var(--black);
  }
+ .user{
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+    margin-left: 114rem;
+ }
+
  .heading span{
      color: var(--blue);
  }
@@ -100,6 +108,7 @@
      box-shadow: 0.1rem .3rem rgba(0, 0, 0, .3);
      padding: .5rem 1rem ;
  }
+
  header .container .logo{
     font-size: 3rem;
  }
@@ -300,12 +309,55 @@ font-size: 5rem;
 .contact form input[type="submit"]:hover{
     background: var(--black);
 }
+.lab  .container .box-container .box h3{
+    color: rgb(6 6 6);
+    position: relative;
+    display: -webkit-inline-box;
+    top: -38px;
+    width: 600px;
+}
 
+.footer{
+    background: var(--black);
 
+}
+.footer p{
+    font-size: 1.5rem ;
+    color: #eee;
+    padding: 1rem 0;
+}
+.footer .col-md-4:nth-child(1) a{
+    font-size: 3rem;
+    color: #fff;
+}
+.footer .col-md-4:nth-child(1) a span{
+    color: var(--blue);
+}
+.footer a{
+    font-size: 2rem;
+    color: #ccc;
+    display: block;
+}
+.footer h3{
+    color: #fff;
+    font-size: 3rem; 
+}
+.footer a:hover{
+    color: var(--blue);
 
-
-
-
+}
+.footer .credit{
+    color: #fff;
+    width: 80%;
+    margin: 0;
+    padding: 2rem 0;
+    padding-bottom: 4rem;
+    border-top: .1rem solid #ccc !important;
+}
+.footer .credit span{
+    color: var(--blue);
+}
+  
 
 
 
@@ -402,4 +454,15 @@ font-size: 5rem;
   .contact form input[type="submit"]{
     width: 100%;
 }
+.user{
+    position: absolute;
+ 
+    margin-left: 356px;
+
+}
+.lab  .container .box-container .box h3{
+  
+    width: 100%;
+}
+
 }
